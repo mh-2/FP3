@@ -25,15 +25,15 @@ header, main, nav, footer, figure, figcaption { display: block; }
 				width:90%; min-width:1000px; max-width:1300px; 
 				margin-left:auto; margin-right:auto; }
 	
-#trebleClef {	background-image: url(free-vector_Treble_Clef.png); 
+#trebleClef {	background-image: url(images/free-vector_Treble_Clef.png); 
 				background-size: 10%; height: 175px; 
 				margin-left: 70px;
 				background-repeat: no-repeat; }
 					
 #contactForm {	padding-left: 170px; }
 					
-#homePagePic {		background-image: url(homePagePic.jpg); opacity: 0.45; background-size: 150% ; height: 100px; background-repeat: no-repeat;	}
-#harmonyPagePic {	background-image: url(harmonyPagePic.png); background-size: 100% ; height: 200px;background-repeat: no-repeat;	}
+#homePagePic {		background-image: url(images/homePagePic.jpg); opacity: 0.45; background-size: 150% ; height: 100px; background-repeat: no-repeat;	}
+#harmonyPagePic {	background-image: url(images/harmonyPagePic.png); background-size: 100% ; height: 200px;background-repeat: no-repeat;	}
 
 /* Fluid layout formaating... */
 
