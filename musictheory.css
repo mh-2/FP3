@@ -21,10 +21,20 @@ figcaption {
 
 */
 
+header {
+  background-color: #d2b48c;
+  height: 15vw;
+  border-bottom: 5px solid #d3d3d3;
+}
+
+.main {
+  margin-left: 25vw;
+}
+
 .navKeep {
   position: fixed;
   top: 0;
-  margin-top: 200px;
+  margin-top: 15vw;
 }
 
 body {
@@ -32,14 +42,59 @@ body {
   color: #221811;
   font-family: Verdana;
   padding-bottom: 35px;
+  height: 85vw;
 }
 /* background-image: url("background.gif"); */
 /* padding-bottom: 50px; */
 
-header {
-  background-color: #d2b48c;
-  height: 200px;
-  border-bottom: 5px solid #d3d3d3;
+nav {
+  float: left;
+  width: 25vw;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+nav li {
+  padding-left: 1vw;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav a:link {
+  color: #fef6c2;
+}
+nav a:visited {
+  color: #d2b48c;
+}
+nav a:hover {
+  color: #94660b;
+}
+
+.header1 {
+  font-size: 4.5vw;
+  font-weight: bold;
+}
+
+.header2 {
+  font-size: 2.5vw;
+}
+
+#trebleClef {
+  background-image: url(images/free-vector_Treble_Clef.png);
+  background-size: 9vw;
+  height: 11vw;
+  margin-left: 3vw;
+  background-repeat: no-repeat;
 }
 
 #wrapper {
@@ -51,18 +106,83 @@ header {
   border-bottom: 5px solid #d3d3d3;
   box-shadow: 15px 15px;
   width: 90%;
-  min-width: 1000px;
-  max-width: 1300px;
+  /* min-width: 1000px; */
+  /* max-width: 1300px; */
   margin-left: auto;
   margin-right: auto;
 }
 
-#trebleClef {
-  background-image: url(images/free-vector_Treble_Clef.png);
-  background-size: 10%;
-  height: 175px;
-  margin-left: 70px;
-  background-repeat: no-repeat;
+main {
+  min-height: 500px;
+  border-left: 5px solid #d3d3d3;
+  margin-left: 32vw;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #ffffff;
+  display: block;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+main h1 {
+  padding-left: 37px;
+}
+
+main h2 {
+  padding-left: 3em;
+  padding-right: 2em;
+  padding-top: 22px;
+  padding-bottom: 40px;
+}
+
+main h3 {
+  padding-left: 3em;
+  padding-right: 2em;
+  padding-top: 22px;
+  padding-bottom: 40px;
+}
+
+main h4 {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+main p {
+  padding-left: 5em;
+  padding-right: 2em;
+}
+
+main div {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+main ul {
+  padding-left: 5em;
+  padding-right: 2em;
+}
+
+main dl {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding-top: 5px;
+  margin: 0;
+  padding-left: 150px;
+}
+
+h4 {
+  background-color: #d2b48c;
+  font-size: 1.2em;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #221811;
+  clear: left;
 }
 
 #contactForm {
@@ -189,113 +309,6 @@ header h2 {
   margin-top: 0.5px;
   font-size: 1.25em;
   font-style: italic;
-}
-
-main {
-  min-height: 500px;
-  border-left: 5px solid #d3d3d3;
-  margin-left: 32vw;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  background-color: #ffffff;
-  display: block;
-  overflow: auto;
-  padding-bottom: 50px;
-}
-
-main h1 {
-  padding-left: 37px;
-}
-
-main h2 {
-  padding-left: 3em;
-  padding-right: 2em;
-  padding-top: 22px;
-  padding-bottom: 40px;
-}
-
-main h3 {
-  padding-left: 3em;
-  padding-right: 2em;
-  padding-top: 22px;
-  padding-bottom: 40px;
-}
-
-main h4 {
-  padding-left: 3em;
-  padding-right: 2em;
-}
-
-main p {
-  padding-left: 5em;
-  padding-right: 2em;
-}
-
-main div {
-  padding-left: 3em;
-  padding-right: 2em;
-}
-
-main ul {
-  padding-left: 5em;
-  padding-right: 2em;
-}
-
-main dl {
-  padding-left: 3em;
-  padding-right: 2em;
-}
-
-h1 {
-  font-size: 2.5em;
-  padding-top: 5px;
-  margin: 0;
-  padding-left: 150px;
-}
-
-h4 {
-  background-color: #d2b48c;
-  font-size: 1.2em;
-  padding-left: 10px;
-  padding-bottom: 0px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #221811;
-  clear: left;
-}
-
-nav {
-  float: left;
-  width: 285px;
-  text-align: left;
-  font-weight: bold;
-  font-size: 1.5em;
-  padding-top: 10px;
-}
-
-nav li {
-  padding-left: 25px;
-  font-size: 18pt;
-  padding-bottom: 20px;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-nav ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-nav a:link {
-  color: #fef6c2;
-}
-nav a:visited {
-  color: #d2b48c;
-}
-nav a:hover {
-  color: #cc9933;
 }
 
 footer {
