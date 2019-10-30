@@ -1,0 +1,205 @@
+	
+/* 
+#heroguitar {	background-image: url(heroguitar.jpg); background-size: 100%; height: 250px; background-repeat: no-repeat;}
+*/
+
+
+* {	box-sizing: border-box; }
+
+header, main, nav, footer, figure, figcaption { display: block; }
+
+/*
+
+#scalesAndChords {		background-image: url(heroroad.jpg); background-size: 100%; height: 250px; background-repeat: no-repeat;}
+
+*/
+
+#wrapper {		
+				/* background-color:#231814; */
+				background-color: #000000; 
+				border-left: 5px solid #d3d3d3;
+				border-right: 5px solid #d3d3d3;
+				border-top: 5px solid #d3d3d3;
+				border-bottom: 5px solid #d3d3d3;
+				box-shadow:15px 15px; 
+				width:90%; min-width:1000px; max-width:1300px; 
+				margin-left:auto; margin-right:auto; }
+	
+#trebleClef {	background-image: url(free-vector_Treble_Clef.png); 
+				background-size: 10%; height: 175px; 
+				margin-left: 70px;
+				background-repeat: no-repeat; }
+					
+#contactForm {	padding-left: 170px; }
+					
+#homePagePic {		background-image: url(homePagePic.jpg); opacity: 0.45; background-size: 150% ; height: 100px; background-repeat: no-repeat;	}
+#harmonyPagePic {	background-image: url(harmonyPagePic.png); background-size: 100% ; height: 200px;background-repeat: no-repeat;	}
+
+/* Fluid layout formaating... */
+
+#mobile { 		display: none; }
+#desktop { 		display: inline; }
+	
+/*		
+@media only screen and (max-width: 1024px) {
+		body { margin: 0; background-image: none; }
+		#wrapper { width: auto; min-width: 0; margin: 0; padding: 0; box-shadow: none; }
+		header { border-bottom: 5px solid #FEF6C2; }
+		h1 { margin-top: 0; margin-bottom: 1em; padding-top: 1em; padding-bottom: 1em; font-size: 2.5em; }
+		nav { float: none; width: auto; padding-top: 0; margin: 10px; font-size: 1.3em; }
+		nav li { display: inline-block; }
+		nav a { padding: 1em; width: 8em; font-weight: bold; border-style: none; }
+		nav ul { padding: 0; margin: 0; } 
+		#heroroad { margin: 0; padding: 0; }
+		#heromugs { margin:0; padding: 0; }
+		#heroguitar {margin: 0; padding: 0; }
+		main { padding: 0; margin: 0; font-size: 90%; }
+}
+@media only screen and (max-width: 768px) {
+		body { margin: 0; background-image: none; }
+		#wrapper { width: auto; min-width: 0; margin: 0; padding: 0; box-shadow: none; }
+		header { border-bottom: 5px solid #FEF6C2; background-image: url("javajammini.jpg"); height: 128px; }
+		h1 { padding-left: 0; text-align: center; font-size: 2em; }
+		nav { margin: 0; }
+		nav li { display: block; }
+		nav a { display: block; padding: 0.2em; width: auto; border-bottom: 1px solid #FEF6C2; }
+		main { padding-top: 1px; }
+		h2 { padding-top:0.5em; padding-right: 0; padding-bottom: 0; padding-left: 0.5em; margin-right: 0.5em; }
+		#heroroad { background-image: none; height: auto; }
+		#heromugs { background-image: none; height: auto; }
+		#heroguitar { background-image: none; height: auto; }
+		.floatleft {padding-left: 0.5em; padding-right: 0.5em; }
+		#mobile { display: inline; }
+		#desktop { display: none; }
+} 
+*/
+
+/* Configure/style form on "contacts" page */
+
+
+form { 		font: 20px Verdana; }
+form h1 {	font: 20px Verdana; color: red; } 
+
+.Input{ font: 20px Verdana; border: 1px solid orange; width: 300px; } 
+.Submit{ font: 20px Verdana; border: 1px solid orange; width: 300px; }
+
+iframe {padding-left: 3em; }
+
+/*
+form {	padding: 2em; }
+label {	float: left;
+		display: block;
+		text-align: right;
+		width: 8em;
+		padding-right: 1em;
+}
+input, textarea {	display: block; margin-bottom: 1em; }
+*/
+
+/* Configure a selector for an id named mySubmit that sets the left margin to 9.5em */
+
+/*
+#mySubmit {	margin-left: 9.5em; }
+*/
+
+/* Configure the table on the "menu" page */
+
+/*
+table {		width: 90%;
+			margin: auto;
+			border-spacing: 0;
+			background-color: #ffffcc;
+}
+td, th {	padding: 10px;
+}
+tr:nth-of-type(odd) {	background-color: #d2b48c;
+}
+*/
+
+body {		background-color: #3e3e3e; 
+			color: #221811; font-family: Verdana; 
+			padding-bottom: 35px; }
+			/* background-image: url("background.gif"); */
+			/* padding-bottom: 50px; */
+
+header {	background-color: #D2B48C; height: 200px; 
+			border-bottom: 5px solid #d3d3d3; }
+			/* background-image: url(javajamlogo.jpg); 
+			background-repeat: no-repeat; */
+		
+header h1 { padding-left: 240px; font-size: 4.8em; }
+
+header h2 { padding-left: 330px; margin-top: 0.5px; font-size: 1.25em; font-style: italic;  }
+
+main {	min-height: 500px; 
+		border-left: 5px solid #d3d3d3; 
+		margin-left: 200px; padding-top: 0; 
+		padding-left: 0; padding-right: 0; 
+		background-color: #FFFFFF; display: block; overflow: auto;
+		padding-bottom: 50px; }
+
+	main h1 { 	padding-left: 37px; }
+		
+	main h2 {	padding-left: 3em; padding-right: 2em; 
+				padding-top: 22px; padding-bottom:40px; }
+
+	main h3 {	padding-left: 3em; padding-right: 2em; 
+				padding-top: 22px; padding-bottom:40px; }
+
+	main h4 {	padding-left: 3em; padding-right: 2em; }
+
+	main p {	padding-left: 5em; padding-right: 2em; }
+
+	main div {	padding-left: 3em; padding-right: 2em; }
+
+	main ul {	padding-left: 5em; padding-right: 2em; }
+
+	main dl {	padding-left: 3em; padding-right: 2em; }
+
+h1 {	font-size: 2.5em; padding-top: 5px; margin: 0; padding-left:150px; }
+
+h4 {	background-color:#D2B48C; font-size:1.2em; 
+		padding-left:10px; padding-bottom:0px; 
+		text-transform: uppercase; border-bottom: 2px solid #221811;
+		clear: left; }
+
+nav { 	float: left; width: 285px; text-align:left; 
+		font-weight:bold; 
+		font-size:1.5em; padding-top:10px; }
+		
+nav li { padding-left:25px; font-size: 18pt; padding-bottom: 20px; }
+
+nav a {	text-decoration:none;}
+
+nav ul {	list-style-type: none; padding-left: 0px; }
+
+nav a:link {	color: #FEF6C2; }
+nav a:visited {	color: #D2B48C; }
+nav a:hover {	color: #CC9933; }
+
+footer {	background-color:#D2B48C; 
+			border-top: 5px solid #d3d3d3;
+			margin-top: 25px;
+			text-align: center; 
+			font-size: .90em; font-style: italic; 
+			padding-top: 8px;
+			padding-bottom: 10px; }
+			
+
+.floatleft {	float: left; 
+				padding-right: 20px; padding-bottom: 20px; }
+				
+.details {		padding-left:20%; padding-right:20%;  }
+
+img {		padding-left:10px; padding-top: 10px; 
+			padding-right:10px; padding-bottom: 10px;
+			display: flex;
+			align-items: center; 
+		
+			border:5px solid #808080; }
+			
+			
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
